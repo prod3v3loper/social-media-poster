@@ -1,0 +1,90 @@
+/* frontend/src/App.css */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #333;
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+textarea {
+  height: 100px;
+  /* You can adjust this height as needed */
+}
+
+button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.checkbox-group div {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group input {
+  margin-right: 0.5em;
+}
+
+.error {
+  color: red;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
